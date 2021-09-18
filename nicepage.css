@@ -34389,7 +34389,17 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: auto;
   }
 }
+@media (max-width: 575px) {
+  .u-footer .u-layout-cell-2 {
+    min-height: 300px;
+  }
 
+  .u-footer .u-social-icons-1 {
+    height: 37px;
+    width: 318px;
+    margin-top: 184px;
+  }
+}
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
